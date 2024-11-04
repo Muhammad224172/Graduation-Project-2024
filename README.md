@@ -6,18 +6,18 @@ Heavy-duty trucks are responsible for a significant portion of fuel consumption 
 Previous studies in the literature have explored various machine learning models and feature selection techniques for fuel consumption prediction. However, many existing models lack generalization due to insufficient data preprocessing, overfitting, or inadequate feature selection strategies. Our goal was to build a robust predictive model that would address these issues, providing reliable predictions.
 
 List of features in dataset used
-EngSpeed
-ActualEngPercentTorque
-EngTotalFuelUsed
-TachographVehicleSpeed
-AccelPedalPos1
-BrakePedalPos
-EngOilTemp1
-EngCoolantTemp
-GrossCombinationVehicleWeight
-HghRslutionTotalVehicleDistance
-DStgy_dmRdcAgAct 
-PCCM_Slope
+EngSpeed ,
+ActualEngPercentTorque ,
+EngTotalFuelUsed ,
+TachographVehicleSpeed , 
+AccelPedalPos1 , 
+BrakePedalPos , 
+EngOilTemp1 ,
+EngCoolantTemp ,
+GrossCombinationVehicleWeight ,
+HghRslutionTotalVehicleDistance ,
+DStgy_dmRdcAgAct ,
+PCCM_Slope ,
 
-methodology
-
+# methodology
+Two comparative machine learning model were used namely: XGboost and Random forest using 10-fold cross validation.
